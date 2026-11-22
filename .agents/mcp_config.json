@@ -1,12 +1,12 @@
 {
   "mcpServers": {
     "filesystem": {
-      "command": "npx",
+      "command": "/usr/bin/npx",
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/home/fiori/Documentos/ITCM/MCP"]
     },
     "playwright": {
-      "command": "npx",
-      "args": ["-y", "@playwright/mcp@latest"]
+      "command": "/usr/bin/npx",
+      "args": ["-y", "@playwright/mcp@latest", "--executable-path", "/usr/bin/chromium"]
     }
   }
 }
